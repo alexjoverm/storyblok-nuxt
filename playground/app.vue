@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Example stories</h1>
-    <div data-test="stories">
+    <div>
       <p v-for="story in stories" :key="story.id">{{ story.name }}</p>
     </div>
   </div>
